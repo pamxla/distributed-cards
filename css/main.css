@@ -13,13 +13,39 @@ body {
   background-color: #f5f2f0;
 }
 
+main h1 {
+  margin: 1.5rem;
+  color: #623b0c;
+}
+
+main h2 {
+  color: #623b0c;
+}
+
 img {
 width: auto;
 }
+
 ol {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: .5em .75em .6em;
   gap: 1rem;
   margin: 1.5rem;
+}
+
+li {
+  border-style: solid;
+  border-width: 2px;
+  list-style-type: none;
+  padding: 1rem;
+  background-color: #ede3db;
+}
+
+main p {
+  font-family: "Georgia";
+}
+
+main a {
+  font-family: "Georgia";
 }
