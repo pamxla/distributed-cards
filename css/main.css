@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Denk One";
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,16 +14,20 @@ body {
 }
 
 main h1 {
-  margin: 1.5rem;
   color: #623b0c;
+  margin: 1rem;
+  font-family: "Denk One";
 }
 
 main h2 {
   color: #623b0c;
+  margin: 0;
+  padding-bottom: 1.25rem;
+  font-family: "Denk One", sans-serif;
 }
 
 img {
-  width: 30rem;
+  width: 100%;
 }
 
 ol {
@@ -31,7 +35,7 @@ ol {
   grid-template-columns: repeat(2, 1fr);
   padding: .5em .75em .6em;
   gap: 1rem;
-  margin: 1.5rem;
+  margin: 0;
 }
 
 li {
@@ -55,7 +59,7 @@ main a {
   justify-content: flex-end;
   background-color: #623b0c;
   color: #fff;
-  padding: 1rem;
+  padding: .5em .75em .6em;
   border-radius: 8px;
   text-decoration: none;
 }
