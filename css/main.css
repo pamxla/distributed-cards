@@ -16,6 +16,9 @@ body {
 main h1 {
   margin: 1.5rem;
   color: #623b0c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 main h2 {
@@ -23,7 +26,7 @@ main h2 {
 }
 
 img {
-width: auto;
+  width: 30rem;
 }
 
 ol {
@@ -41,12 +44,13 @@ li {
   padding: 1rem;
   background-color: #ede3db;
   border-radius: 8px;
+  border-color: #623b0c;
 }
 
 main p {
-  font-family: "Georgia";
+  font-family: Georgia;
 }
 
 main a {
-  font-family: "Georgia";
+  font-family: Georgia;
 }
