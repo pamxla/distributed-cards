@@ -16,9 +16,6 @@ body {
 main h1 {
   margin: 1.5rem;
   color: #623b0c;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 main h2 {
@@ -53,4 +50,12 @@ main p {
 
 main a {
   font-family: Georgia;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #623b0c;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
 }
